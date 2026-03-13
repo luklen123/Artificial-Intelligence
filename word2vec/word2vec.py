@@ -2,6 +2,7 @@ import numpy as np
 from datasets import load_dataset
 from collections import Counter
 from tqdm import tqdm
+from vocabulary import Vocabulary
 
 EMBED_DIM = 50
 BATCH_SIZE = 10000
