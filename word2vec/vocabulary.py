@@ -1,3 +1,5 @@
+import numpy as np
+
 class Vocabulary:
   def __init__(self):
     self.word2id = {}
